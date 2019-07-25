@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Toturial for Computer Club</title>
+  <!-- This will let the browser know what type of format to read the HTML file -->
+  <meta charset="utf-8">
+  <!-- This is use for real websites only. It shows the content as description when u google. -->
+  <meta name="description" content="Tutorial for Computer Club. We cover all the basics for HTML.">
+  <!-- keywords is what increase the chances of people found your website
+    (Google does not use keywords to rank website but other search engines still do) -->
+  <meta name="keywords" content="tutorial, computer club, html">
+  <!-- "http-equiv" does the same thing as "name" -->
+  <meta http-equiv="author" content="The little AJK">
+  <!-- English in United State -->
+  <meta http-equiv="content-language" content="en-us">
+ </head>
+ <body>
+    <!-- Escape Characters:
+    space -------  &nbsp;
+    ™ ---------- &#8482;
+    & ---------- &amp;
+    © ---------- &copy;
+    < ----------- &lt;
+    > ----------- &gt;
+    ? ----------- &#63; 
+    Don't ask me why the code is like that, I am not the developer of HTML code-->
+    <p>&nbsp &#8482 &amp &copy &lt &gt &#63</p>
+    <p>Space testing.        ICT</p>
+    <!-- a for anchor -->
+  <a name="CLICC">Computer Club</a>
+  <p style="color:rgb(255, 0, 0)">This is a paragraph</p>
+  <p>This is another paragrah</p>
+  <p>This is <br> a line break</p>
+  <p><b>This is a Bold Text</b></p>
+  <p><i>This is a Italic Text</i></p>
+  <p><small>This is a small text</small></p>
+  <p><u>This is an Underline Text</u></p>
+  <p><s>This is a strikethrough Text</s></p>
+  <p><h2>This is a <small>small</small> text</h2></p>
+  <p><mark style="background-color:rgb(255,0,0)">This is a Marked Text</mark></p>
+  <p>This is <sub>Subscripted</sub> Text.</p>
+  <p>This is <sup>Superscripted</sup> Text.</p>
+  <h1>This is heading 1</h1>
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h5>
+  <abbr title="Chung Ling Computer Club">CLICC</abbr>
+  <ul>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  </ul>
+  <ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  </ol>
+  <p>This is a line</p>
+  <hr />
+  <p align="center">This text is aligned to center</p>
+  <hr />
+  <p align="right">This text is aligned to center</p>
+  <hr width="50px" />
+  <p>This is the difference between 50px and 50%</p>
+  <hr width="50%" />
+  <p>Below is a line that is align to right and with a width of 50%</p>
+  <hr align="right" width="50%" />
+  <img src="logo.jpg" />
+  <p><img src="C:\Users\User\Desktop\Toturial\logo.jpg" alt="Computer Club Logo" style="width:200px;height:100px;" /></p>
+  <p><a href="https://www.google.com" target="_blank">Google Page</a></p>
+  <p><a href="#CLICC">Click here!</a></p>
+  <h2 style="background-color:rgb(255,0,0)">
+  Background-color set by using rgb(255,0,0)
+  </h2>
+  <h2 style="background-color:rgb(0,255,0)">
+  Background-color set by using rgb(0,255,0)
+  </h2>
+  <h2 style="background-color:rgb(0,0,255)">
+  Background-color set by using rgb(0,0,255)
+  </h2>
+  <h2 style="color:rgb(255,0,0)">
+  Color set by using rgb(255,0,0)
+  </h2>
+  <h2 style="color:rgb(0,255,0)">
+  Color set by using rgb(0,255,0)
+  </h2>
+  <h2 style="color:rgb(0,0,255)">
+  Color set by using rgb(0,0,255)
+  </h2>
+  <!-- "th" automatically become -->
+  <marquee>Marquee Moving</marquee>
+  <table>
+      <tr>
+          <th> The Planets </th>
+          <th> The Oceans </th>
+          <th> The Deserts </th>
+      </tr>
+      <tr>
+          <td> Earth </td>
+          <td> The Pacific </td>
+          <td> The Sahara</td>
+      </tr>
+      <tr>
+        <td> Pluto </td>
+        <td> Atlantic </td>
+        <td> Gobi </td>
+    </tr>
+  </table>
+  <form action="" method="">
+    <!-- Input elements put in here -->
+    <!-- Click on "label" text=Click on the box -->
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name"" size="50">
+    <br>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name"">
+    <br>
+    <textarea rows="10" cols="40"></textarea>
+    <input type="submit" value="Submit">
+    <br>
+    <!-- Name must be same so only one button can be selected -->
+    Yes
+    <input type="radio" name="yesorno" type="radio">
+    <br>
+    No
+    <input type="radio" name="yesorno" type="radio">
+    <br>
+    <input type="checkbox" name""> Checked
+    <br>
+    <input type="number" min="0" max="50">
+    <br>
+  </form>
+  <select>
+    <option value="Jeremy">Jeremy</option>
+    <option value="Austin">Austin</option>
+    <option value="Augustine">Augustine</option>
+  </select>
+  <form>
+    <fieldset>
+
+    <legend>Enter the date you want to travel to Mars: </legend>
+    Here
+    <input type="date" name="day">
+    Number of days: <input type="number" name="numdays" min="0" max"10">
+    <br>
+    Name: <input type="text">
+    </fieldset>
+    <br>
+  </form>
+    <!-- "frameborder" 0=off, 1=on. -->
+    <!-- It's normal you don't see anything. If you see the words in webpage, means
+    the browser does not support iframe. -->
+    <iframe frameborder="1" width="200" height="200" src="first.html" name="ouriframe" id="ouriframe">
+        Do you see this?
+    </iframe>
+    <br>
+    <a href="first.html" target="ouriframe">Switch to first document.</a>
+    <a href="second.html" target="ouriframe">Switch to second document.</a>
+    <br>
+    <!-- Standard audio format: .mp3 .wav .ogg -->
+    <!-- The elements can be "controls" only. -->
+    <audio controls="audiocontrols">
+        <source src="unity.mp3">
+        <source src="unity.mp3">
+    </audio>
+    <br>
+    <!-- loop will automatically replay the audio when it ended. -->
+    <!-- You cannot play the draggable object because that will need a receiver which would use Java coding. -->
+    <audio controls autoplay loop draggable="true">
+            <source src="unity.mp3">
+            <source src="unity.mp3">
+    </audio>
+    <br>
+    <!-- Standard video formats: .mp4 .webm .ogg -->
+    <!-- The elements are almost same as the audio elements -->
+    <video width="640" height="360" controls>
+        <source src="alone.webm">
+        <source src="alone.mp4">
+    </video>
+    <!-- HTML Structure Tutorial Start -->
+    <iframe
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/c4efd390-0780-4d69-8f8d-c0de7be0518e">
+	</iframe>
+	<iframe src="https://discordapp.com/widget?id=401642631521632257&theme=dark" 
+	width="350" 
+	height="500" 
+	allowtransparency="true" 
+	frameborder="0">
+	</iframe>
+ </body>
+ </html>
